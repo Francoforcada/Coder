@@ -1,0 +1,197 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+img{
+	width:100%;
+	height:auto;
+}
+
+article form{
+	text-align: center;
+	background-color: darkred;
+	color: white;
+	font-size: 16px;
+	padding-bottom: 25px;
+}
+
+article ol{
+	padding-bottom: 20px;
+	list-style-type: upper-roman;
+}
+
+article h1{
+	background-color: darkred;
+	text-align: center;
+	font-size: 36px;
+	padding: 25px 20%;
+	color: white;
+}
+
+
+Footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	padding: 20px;
+}
+
+article table tr td{
+	padding: 10px;
+}
+
+.textoDeFormulario{
+	text-align: center;
+	background-color: darkred;
+	color: white;
+	font-size: 16px;
+	padding-bottom: 40px;
+}
+
+
+.imagenArticuloPrimero{
+	width: 250px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.table{
+	margin: 0 auto;
+}
+
+
+.video{
+	text-align: center;
+	background-color:  black;
+}
+
+.ListaCentradaBlanca{
+	text-align: center;
+	color: white;
+	background-color:  darkred;
+	line-height: 1.6;
+}
+
+.articleTable{
+	background-color: darkred;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
+
+.imagenArticulos{
+	width: 350PX;
+}
+
+.textoIndex{
+	background-color: darkred;
+	text-align: center;
+	font-size: 16px;
+	padding: 25px 20%;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.flexContainer{
+	display: flex;
+	color: white;
+	background-color: darkred;
+	padding: 25px 15%;
+	align-items: center;
+	font-size: 16px;
+	border-bottom: 3px solid black;
+}
+
+.flexContainer div{
+ padding: 10px;
+}
+
+.imagenesGaleria{
+	display: flex;
+	color: white;
+	background-color: darkred;
+	padding: 25px 15%;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.imagenesGaleria img{
+ width: 400px;
+ padding: 10px;
+}
+
+nav{
+   display: flex;
+   color: white;
+   font-weight: bold;
+   background-color: darkred;
+   border-bottom: 1px solid black;
+   justify-content: center;
+   height: 50px;
+}
+
+nav ul {
+   list-style: none;
+   font-size:0
+}
+nav li {
+   display: inline-block;
+   position:relative;
+   font-size: 16px;
+   padding: 20px 50px;
+   line-height: 7px;
+   list-style: none;
+   font-weight: bold;
+}
+nav ul ul {
+   position: absolute;
+   display: none;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul ul li {
+   display: block;
+   width: 200px;
+   margin-top: 2px;
+   background-color: darkred;
+}
+nav ul li:hover ul {
+   display:block;
+}
+
+.margenDesplagable{
+   margin-top: 25px;
+}
+
+/* nav{
+	background-color: darkred;
+	height: 50px;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+nav ul li{
+	color: white;
+	float: left;
+	padding: 20px 50px;
+	line-height: 7px;
+	list-style: none;
+	font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.navegadorCentrado{
+	margin-left: calc(50% - 527px);
+} 
