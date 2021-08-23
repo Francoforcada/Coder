@@ -243,7 +243,7 @@ nav a {
 
 .Redes--facebook {
   background-color: #1877F2;
-  padding: 10px 50px; }
+  padding: 10px 20px; }
 
 .Redes__imgfacebook {
   background-color: #1877F2;
@@ -252,7 +252,7 @@ nav a {
 
 .Redes--instagram {
   background-color: #833AB4;
-  padding: 10px 50px; }
+  padding: 10px 20px; }
 
 .Redes__imginstagram {
   background-color: #833AB4;
@@ -261,7 +261,7 @@ nav a {
 
 .Redes--twitter {
   background-color: #00acee;
-  padding: 10px 50px; }
+  padding: 10px 20px; }
 
 .Redes__imgtwitter {
   background-color: #00acee;
@@ -377,7 +377,7 @@ nav ul ul li {
 /* NAV */
 
 nav li {
-  font-size: 12px;
+  font-size: 10px;
   padding: 14px 18px; }
 
 nav ul ul {
